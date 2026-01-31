@@ -15,5 +15,4 @@ int main() {
     else cout<<command<<": command not found"<<endl;
     cout<<"$ ";
   }
-  
 }
