@@ -11,7 +11,7 @@ int main() {
   string command;
   while(getline(cin , command)){
     if (command.substr(0,5) == "type "){
-        if (command.substr(5) == "echo" || command.substr(5) == "exit") cout<<command.substr(5)<<" is a shell builtin"<<endl;
+        if (command.substr(5) == "echo" || command.substr(5) == "exit" || command.substr(5) == "type") cout<<command.substr(5)<<" is a shell builtin"<<endl;
         else cout<<command.substr(5)<<": not found"<<endl;
         cout<<"$ ";
         continue;
