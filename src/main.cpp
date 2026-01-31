@@ -10,5 +10,5 @@ int main() {
   cout << "$ ";
   string command;
   getline(cin , command);
-  cout<<command<<" : command not found!";
+  cout<<command<<": command not found";
 }
