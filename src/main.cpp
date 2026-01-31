@@ -9,6 +9,9 @@ int main() {
 
   cout << "$ ";
   string command;
-  getline(cin , command);
-  cout<<command<<": command not found";
+  while(getline(cin , command)){
+    cout<<command<<": command not found"<<endl;
+    cout<<"$ "<<endl;
+  }
+  
 }
