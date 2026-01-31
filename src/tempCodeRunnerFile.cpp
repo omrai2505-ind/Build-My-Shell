@@ -1,4 +1,0 @@
-
-
-  cout << "$ ";
-  string command;
