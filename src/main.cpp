@@ -11,7 +11,7 @@ int main() {
   string command;
   while(getline(cin , command)){
     cout<<command<<": command not found"<<endl;
-    cout<<"$ "<<endl;
+    cout<<"$ ";
   }
   
 }
